@@ -276,7 +276,7 @@
 
   // restore previously defined key and return reference to our key object
   function noConflict() {
-    var k = global.key;w
+    var k = global.key;
     global.key = previousKey;
     return k;
   }
