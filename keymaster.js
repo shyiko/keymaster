@@ -276,7 +276,7 @@
 
   // restore previously defined key and return reference to our key object
   function noConflict() {
-    var k = global.key;
+    var k = global.key;w
     global.key = previousKey;
     return k;
   }
@@ -294,4 +294,4 @@
 
   if(typeof module !== 'undefined') module.exports = assignKey;
 
-})(this);
+})(this || window);
