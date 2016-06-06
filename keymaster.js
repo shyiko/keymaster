@@ -294,4 +294,4 @@
 
   if(typeof module !== 'undefined') module.exports = assignKey;
 
-})(this);
+})(this || window);
